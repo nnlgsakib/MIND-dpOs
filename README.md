@@ -1,14 +1,14 @@
-# Go TTC
+# Go MIND Dpos
 
-Golang implementation of MARO Blockchain (Previously known as TTC protocol).
+Golang implementation of MIND Smart Chain DPoS testnet
 
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/TTCECO/gttc)
 [![GoReport](https://goreportcard.com/badge/github.com/TTCECO/gttc)](https://goreportcard.com/report/github.com/TTCECO/gttc)
 [![Travis](https://travis-ci.org/TTCECO/gttc.svg?branch=master)](https://travis-ci.org/TTCECO/gttc)
 [![License](https://img.shields.io/badge/license-GPL%20v3-blue.svg)](LICENSE)
-## About gttc
+## About MINd
 
-gttc is base on [go-ethereum](https://github.com/ethereum/go-ethereum), the main part be modified is in [consensus](consensus/) directory. We add a new consensus algorithm named [alien](consensus/alien/) in it.
+MIND is base on [go-ethereum](https://github.com/ethereum/go-ethereum), the main part be modified is in [consensus](consensus/) directory. We add a new consensus algorithm named [alien](consensus/alien/) in it.
 
 Alien is a simple version of DPOS-PBFT consensus algorithm, which in [consensus/alien](consensus/alien/):
 
